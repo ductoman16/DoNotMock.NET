@@ -2,6 +2,34 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AnalysisLevel>latest-all</AnalysisLevel>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    
+    <!-- Package Info -->
+    <Authors>Ductoman16</Authors>
+    <Copyright>Copyright © $([System.DateTime]::Now.Year) Ductoman16</Copyright>
+    <Description>.NET Implementation of the [DoNotMock] attribute with built-in Roslyn analyzer</Description>
+    <PackageTags>testing;mocking;test-doubles;unit-testing;analyzer;roslyn</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/ductoman16/DoNotMock.NET</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ductoman16/DoNotMock.NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    
+    <!-- Analyzer specific settings -->
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <DevelopmentDependency>true</DevelopmentDependency>
+    <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+    <IsRoslynComponent>true</IsRoslynComponent>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.8.0" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.4" PrivateAssets="all" />
+  </ItemGroup>
 
 </Project>
