@@ -2,20 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <LangVersion>latest</LangVersion>
-    <Nullable>enable</Nullable>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <ImplicitUsings>enable</ImplicitUsings>
-    
-    <PackageId>DoNotMock</PackageId>
-    <Authors>Ductoman16</Authors>
-    <Description>.NET Implementation of the [DoNotMock] attribute, inspired by the DoNotMock attribute in Google's "Error Prone" tool</Description>
-    <PackageTags>testing;mocking;test-doubles;unit-testing</PackageTags>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PublishRepositoryUrl>true</PublishRepositoryUrl>
-    <EmbedUntrackedSources>true</EmbedUntrackedSources>
-    <IncludeSymbols>true</IncludeSymbols>
-    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
 </Project>
