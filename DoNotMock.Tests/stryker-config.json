@@ -1,0 +1,29 @@
+{
+  "stryker-config": {
+    "mutation-level": "Complete",
+    "reporters": [
+      "html",
+      "progress",
+      "cleartext"
+    ],
+    "thresholds": {
+      "high": 90,
+      "low": 80,
+      "break": 70
+    },
+    "project-info": {
+      "name": "github.com/ductoman16/DoNotMock.NET",
+      "version": "main"
+    },
+    "ignore-methods": [
+      "*Log*",
+      "ToString",
+      "*HashCode*",
+      "*Equals*"
+    ],
+    "coverage-analysis": "perTest",
+    "test-projects": [
+      "DoNotMock.Tests.csproj"
+    ]
+  }
+} 

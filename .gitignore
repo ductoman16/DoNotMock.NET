@@ -401,3 +401,7 @@ FodyWeavers.xsd
 
 .DS_Store
 .context/
+
+# Stryker output
+StrykerOutput/
+.config/

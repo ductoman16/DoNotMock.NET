@@ -10,6 +10,17 @@
 			},
 			"problemMatcher": [],
 			"label": "dotnet: build"
+		},
+		{
+			"label": "mutation-test",
+			"type": "shell",
+			"command": "cd DoNotMock.Tests && dotnet stryker",
+			"group": "test",
+			"presentation": {
+				"reveal": "always",
+				"panel": "new"
+			},
+			"problemMatcher": []
 		}
 	]
 }
