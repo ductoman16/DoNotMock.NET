@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoNotMock", "DoNotMock\DoNo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoNotMock.Analyzers", "DoNotMock.Analyzers\DoNotMock.Analyzers.csproj", "{6CC5D332-1005-4C75-8E44-F1C18CFE7533}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoNotMock.Tests", "DoNotMock.Tests\DoNotMock.Tests.csproj", "{03A05070-D8F1-4118-A8B7-2B3D6D75CFEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoNotMock.Analyzers.Tests", "DoNotMock.Analyzers.Tests\DoNotMock.Analyzers.Tests.csproj", "{85A8094E-7BA5-4DCF-99FA-DA8BFABD5A38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{6CC5D332-1005-4C75-8E44-F1C18CFE7533}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CC5D332-1005-4C75-8E44-F1C18CFE7533}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CC5D332-1005-4C75-8E44-F1C18CFE7533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A05070-D8F1-4118-A8B7-2B3D6D75CFEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A05070-D8F1-4118-A8B7-2B3D6D75CFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A05070-D8F1-4118-A8B7-2B3D6D75CFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A05070-D8F1-4118-A8B7-2B3D6D75CFEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85A8094E-7BA5-4DCF-99FA-DA8BFABD5A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85A8094E-7BA5-4DCF-99FA-DA8BFABD5A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85A8094E-7BA5-4DCF-99FA-DA8BFABD5A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85A8094E-7BA5-4DCF-99FA-DA8BFABD5A38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
