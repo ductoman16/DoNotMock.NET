@@ -2,7 +2,14 @@
 
 A .NET implementation of the `[DoNotMock]` attribute with built-in Roslyn analyzer, inspired by Google's "Error Prone" tool. This attribute helps enforce proper test double usage by marking types that should not be mocked in tests.
 
-## Why DoNotMock?
+## Inspiration
+
+1) <https://testing.googleblog.com/2024/02/increase-test-fidelity-by-avoiding-mocks.html>
+2) <https://testing.googleblog.com/2013/05/testing-on-toilet-dont-overuse-mocks.html>
+3) <https://android.googlesource.com/platform/frameworks/support/%2B/refs/heads/androidx-core-core-role-release/docs/do_not_mock.md>
+4) <https://www.baeldung.com/mockito-annotations#donotmock-annotation>
+
+## Why should you avoid Mocks?
 
 Mocking is a powerful tool for unit testing, but it can be misused. Some types should never be mocked because:
 

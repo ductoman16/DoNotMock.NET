@@ -15,12 +15,6 @@
       "name": "github.com/ductoman16/DoNotMock.NET",
       "version": "main"
     },
-    "ignore-methods": [
-      "*Log*",
-      "ToString",
-      "*HashCode*",
-      "*Equals*"
-    ],
     "coverage-analysis": "perTest",
     "test-projects": [
       "DoNotMock.Tests.csproj"

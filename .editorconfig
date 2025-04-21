@@ -1,0 +1,3 @@
+[*.cs]
+# Unused usings
+dotnet_diagnostic.IDE0005.severity = error
