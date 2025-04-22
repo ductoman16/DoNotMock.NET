@@ -44,8 +44,6 @@
   <ItemGroup>
     <!-- Package the analyzer -->
     <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
-    <!-- Also include the DLL as a normal reference for the attribute -->
-    <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="lib/$(TargetFramework)" Visible="false" />
   </ItemGroup>
 
 </Project>
