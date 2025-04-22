@@ -16,10 +16,10 @@ namespace DoNotMock;
 /// </remarks>
 /// <param name="message">A message explaining what alternative to use instead of mocking.</param>
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface | AttributeTargets.Struct, Inherited = false, AllowMultiple = false)]
-public sealed class DoNotMockAttribute(string? message = null) : Attribute
+public sealed class DoNotMockAttribute(string message) : Attribute
 {
     /// <summary>
     /// Gets the justification message explaining why this type should not be mocked.
     /// </summary>
-    public string? Message { get; } = message;
+    public string Message { get; } = message;
 } 
