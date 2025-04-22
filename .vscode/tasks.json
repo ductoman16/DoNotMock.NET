@@ -8,17 +8,18 @@
 				"kind": "build",
 				"isDefault": true
 			},
-			"problemMatcher": [],
+			"problemMatcher": ["$msCompile"],
 			"label": "dotnet: build"
 		},
 		{
-			"type": "dotnet",
-			"task": "test",
+			"type": "process",
+			"command": "dotnet",
+			"args": ["test"],
 			"group": {
 				"kind": "test",
 				"isDefault": true
 			},
-			"problemMatcher": [],
+			"problemMatcher": ["$msCompile"],
 			"label": "dotnet: test"
 		},
 		{
