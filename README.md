@@ -20,7 +20,7 @@ Therefore, tests should use the [highest-fidelity dependencies](https://testing.
 
 1) Prefer using the real implementation, because it is the highest fidelity.
 2) Use a fake if you can't use the real implementation for logistical reasons.
-3) Use a mock if you can't use the real implementation of a fake.
+3) Use a mock if you absolutely can't use the real implementation or a fake.
 
 The `[DoNotMock]` attribute, combined with the built-in Roslyn analyzer, helps enforce these design decisions by:
 
